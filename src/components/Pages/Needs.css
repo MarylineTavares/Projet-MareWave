@@ -1,0 +1,80 @@
+.import{
+    padding: 30px 50px 30px 50px; 
+}
+
+.title-import{
+    text-align: center;
+}
+
+.title-import h2{
+    color:#FFBE33;
+    margin-bottom: 20px;
+}
+
+.title-import p{
+    color: #273746;
+    font-style: italic; 
+}
+
+.items-import{ 
+    width:800px;
+    display:grid;
+    grid-template-columns: repeat (2,1fr);
+    gap:40px;
+    margin-top: 60px;
+    margin-left:150px;   
+    color: #273746; 
+    text-align: justify;
+}
+
+.one-import{
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.two-import{
+    grid-column: 2/2;   
+    grid-row: 1;
+}
+
+.three-import{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.export{
+    padding: 30px 50px 30px 50px; 
+}
+
+.title-export{
+    text-align: center;
+}
+
+.title-export h2{
+    color:#FFBE33;
+    margin-bottom: 20px;
+}
+
+.title-export p{
+    color: #273746; 
+    font-style: italic; 
+}
+
+.items-export{ 
+    width:800px;
+    display:grid;
+    grid-template-columns: repeat (2,1fr);
+    gap:40px;
+    margin-top: 60px;
+    margin-left:150px;   
+    color: #273746; 
+    text-align: justify;
+}
+
+.one-export{
+    grid-column: 1/2;
+}
+
+.two-export{
+    grid-column: 2/2;   
+}

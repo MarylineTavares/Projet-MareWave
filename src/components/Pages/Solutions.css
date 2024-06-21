@@ -1,0 +1,78 @@
+.fret{
+    padding: 30px 50px 30px 50px; 
+    color: #273746; 
+}
+
+.fret h2{
+    color:#FFBE33;;
+    text-align: center;
+}
+.card img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.fret-card{
+    margin-top:50px;
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card{
+    width:350px;
+    height:360px;
+    padding:2rem 1rem;
+    position:relative;
+    display:flex;
+    align-items:flex-end;
+    box-shadow: 0px 7px 10px(0,0,0,0.5);
+    transition: 0.5s ease-in-in-out;
+}
+
+.card:hover{
+    transform: translateY(20px);
+}
+
+.card:before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width:100%;
+    height:100%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,0));
+    z-index:2;
+    transition: 0.5s all;
+    opacity:1;
+}
+
+.card .card-text{
+    position:relative;
+    z-index:3;
+    color:white;
+    opacity:0;
+    transform:translateY(30px);
+    transition: 0.5s all;
+}
+
+.card:hover .card-text{
+    opacity:1;
+    transform:translateY(0px);
+}
+
+.card .cardtext h3{
+    margin:0;
+}
+
+.card .card-text p{
+    letter-spacing:1px;
+    font-size:12px;
+    margin-top:8px;
+    margin-bottom:20px;
+} 

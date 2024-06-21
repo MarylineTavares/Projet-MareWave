@@ -1,0 +1,38 @@
+.footer-links{
+    background: #1B2631 ;
+    object-fit: cover;
+}
+
+.footer-copyright{
+    background: #273746 ;
+    display: grid;
+    grid-column:1;
+    grid-row: 2;
+    justify-content: center;
+    color: lightgray;
+    text-align: center;
+    font-size: 12px;
+    gap: 10%;
+    padding-bottom: 0.5ch;
+}
+
+.items-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: start;
+    gap: 10%;
+    padding: 20px 5px 20px;
+    margin-left: 3rem;
+    
+}
+
+.items-title{
+    font-size: 14px;
+    color: white;
+}
+
+.items-link{
+    color: lightgray;
+    font-size: 12px;
+    cursor:pointer;
+}

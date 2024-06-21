@@ -1,0 +1,16 @@
+.presence{
+    background: whitesmoke;
+    padding: 30px 50px 30px 50px; 
+    color: #273746;
+}
+
+.presence h1{
+    color:#FFBE33;
+    border-left: 1px solid #FFBE33;
+    text-align: center;
+}
+
+.presence p{
+    margin-right: 60px;
+    margin-left: 80px;
+}
